@@ -12,12 +12,23 @@ public class MainHello {
         sumOfDigits sod = new sumOfDigits();
         System.out.println("sum of 123 digits is: " + sod.sumOfDigits(123));
 
+        //Leap Year Program
         isLeapYear leapYear = new isLeapYear();
         if(leapYear.isLeapYear(2018)){
             System.out.println("Year 2018 is a Leap Year");
         } else {
             System.out.println("Year 2018 is not a Leap Year");
         }
+
+        //Palindrome check
+        palindrome pd = new palindrome();
+        if(pd.palindrome("1212")){
+            System.out.println("1212 is a palindrome");
+        } else {
+            System.out.println("1212 is not a palindrome");
+        }
+
+
 
 
 
