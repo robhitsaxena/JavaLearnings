@@ -33,6 +33,12 @@ public class MainHello {
         System.out.println("Please enter your name: ");
         System.out.println("You have given: " + ri.ReadingInputs());
 
+        //Class Concepts
+        ClassConcepts ccPorsche = new ClassConcepts();
+        System.out.println("Model is: " + ccPorsche.getModel());
+        ccPorsche.setModel("Carreraa");
+        System.out.println("Model is: " + ccPorsche.getModel());
+
 
 
 
