@@ -28,6 +28,10 @@ public class MainHello {
             System.out.println("1212 is not a palindrome");
         }
 
+        //Reading Inputs
+        ReadingInputs ri = new ReadingInputs();
+        System.out.println("Please enter your name: ");
+        System.out.println("You have given: " + ri.ReadingInputs());
 
 
 
