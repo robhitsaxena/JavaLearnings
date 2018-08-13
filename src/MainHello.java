@@ -40,7 +40,20 @@ public class MainHello {
         System.out.println("Model is: " + ccPorsche.getModel());
 
 
+        //Constructor Concepts
+        ConstructorConcepts bankingProcess = new ConstructorConcepts();
+            //Withdrawing money (using getters ans setters)
+        bankingProcess.withdrawal(100.00);
+            //Depositing Money (using getters ans setters)
+        bankingProcess.deposit(1000.00);
+        System.out.println("Current Account Balance is: " + bankingProcess.getAccBalance());
 
+        //Using constructor for setting the values instead of using getters and setters
+        ConstructorConcepts AccountProcess = new ConstructorConcepts("12345",0.00,
+                "Robhit","robhit@email.com",
+                "+60101234320");
+        System.out.println("Account Number: " + AccountProcess.getAccNumber());
+        System.out.println("Account Balance: " + AccountProcess.getAccBalance());
 
     }
 
