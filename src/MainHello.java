@@ -55,6 +55,16 @@ public class MainHello {
         System.out.println("Account Number: " + AccountProcess.getAccNumber());
         System.out.println("Account Balance: " + AccountProcess.getAccBalance());
 
+        //Inheritance Concepts:
+        InheritanceConcepts Animals = new InheritanceConcepts("Animal",1,1,5);
+        DogAnimalsInheritance Dog = new DogAnimalsInheritance("Puppy", 20,5,2,4,1);
+        Dog.eat();
+        Dog.run();
+        Dog.walk();
+
+
+
+
     }
 
     //New Method
